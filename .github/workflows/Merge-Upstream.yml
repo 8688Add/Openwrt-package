@@ -46,6 +46,6 @@ jobs:
 
     - name: 推送上游提交
       env:
-        DOWNSTREAM_BRANCH: master
+        DOWNSTREAM_BRANCH: main
       run: git push origin $DOWNSTREAM_BRANCH
 
